@@ -9,14 +9,14 @@ function setGradient(color1,color2){
         body.style.background="linear-gradient(to right, "
          +color1.value+ ", "
          +color2.value+")";
-         css.textContent=body.style.background + ";";
+         css.textContent="background : "+body.style.background + ";";
          par.textContent=" select and copy the above color to use "
     })
     color2.addEventListener("input",function(){
         body.style.background="linear-gradient(to right, "
          +color1.value+ ", "
          +color2.value+")";
-         css.textContent=body.style.background + ";";
+         css.textContent="background : "+body.style.background + ";";
          par.textContent=" select and copy the above color to use "
     })
   
